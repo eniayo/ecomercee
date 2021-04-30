@@ -71,7 +71,11 @@
 		</div>
 	</div>
 
-    <script src="https://www.paypal.com/sdk/js?client-id=AUTCt24yS2W4lTQdAaFfWckO-HBnV7VgWr2-QcDBputETxR5nva0p3JKjjPHH3PaojFzoy-G0ftN3MZ_&currency=USD&disable-funding=credit"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AUTCt24yS2W4lTQdAaFfWckO-HBnV7VgWr2-QcDBputETxR5nva0p3JKjjPHH3PaojFzoy-G0ftN3MZ_&currency=USD&enable-funding=credit"></script>
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=LIVE_CLIENT_ID">
+  </script>
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=EUR&intent=order&commit=false&vault=true"></script>
 
     <script>
         var total = '{{order.get_cart_total}}'
